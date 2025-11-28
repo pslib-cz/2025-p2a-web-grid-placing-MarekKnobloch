@@ -1,0 +1,41 @@
+:root {
+  --yellow: #ffc600;
+  --black: #272727;
+}
+
+html {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 900;
+  font-size: 12px;
+  color: var(--black);
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
+}
+
+body {
+  background-image: url("topography.svg"), linear-gradient(110deg, #f93d66, #6d47d9);
+  background-size: 340px, auto;
+  min-height: calc(100vh - 8rem);
+  margin: 4rem;
+  background-attachment: fixed;
+  letter-spacing: -1px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6, 
+.item p {
+  margin: 0 0 6px 0;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid rgba(0, 0, 0, 0.03);
+  border-radius: 3px;
+  font-size: 32px;
+  background-color: var(--yellow);
+}
